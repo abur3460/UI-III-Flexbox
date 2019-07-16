@@ -64,3 +64,139 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body {
+	margin: 50px;
+	
+	
+}
+
+.container nav  {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+	text-decoration: none;
+	color: grey;
+	padding: 10px;
+
+}
+
+.container a {
+	text-decoration: none;
+	color: grey;
+}
+
+.header {
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+
+
+	
+
+}
+
+.headerbutton div {
+	flex-direction: column;
+	
+}
+ 
+
+
+.header img {
+	width: 50%;
+	height: 50%;
+
+}
+
+.title1 {
+	display: flex;
+	font-size: 125px;
+	width: 50%;
+	
+
+}
+
+
+button {
+	background: white;
+	border: solid black 1px;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	display: flex;
+	width: 100px;
+	height: 25px;
+	font-size: 16px;
+	transition-duration: .7s;
+	margin: 
+}
+.button:hover {
+	background-color: lightgrey;
+
+}
+
+section .main-header {
+	border-bottom: solid black 2px;
+	display: flex;
+	width: 100%;
+	margin-bottom: 25px;
+	padding-bottom: 45px;
+}
+
+
+section .main-body {
+	border-bottom: solid black 2px;
+	align-content: center;
+	margin-bottom: 25px;
+	padding-bottom: 45px;
+	display: flex;
+}
+
+
+
+.main-body .features {
+	display: flex;
+
+	padding: 25px;
+}
+
+.main-body .about {
+	display: flex;
+
+	padding: 25px;
+}
+
+.main-body .services {
+	display: flex;
+
+	padding: 25px;
+}
+.main-body .product {
+	display: flex;
+
+	padding: 25px;
+}
+.main-body .vision {
+	display: flex;
+	align-content: center;
+
+	padding: 25px;
+}
+.main-body img {
+	display: flex;
+	align-content: center;
+
+	height: 150px;
+}
+
+section .contact {
+	display: flex;
+	padding: 25px;
+}
+
+div.copyright {
+	text-align: center;
+	
+}
