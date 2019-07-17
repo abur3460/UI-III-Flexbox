@@ -87,34 +87,21 @@ body {
 	color: grey;
 }
 
-.header {
+
+
+.headerbutton {
 	display: flex;
-	flex-direction: row;
-	align-content: center;
-
-
-	
-
-}
-
-.headerbutton div {
 	flex-direction: column;
 	
 }
  
 
-
-.header img {
-	width: 50%;
-	height: 50%;
-
-}
-
 .title1 {
 	display: flex;
 	font-size: 125px;
-	width: 50%;
-	
+	width:;
+	text-align: center;
+	align-items: center;
 
 }
 
@@ -137,58 +124,59 @@ button {
 
 }
 
-section .main-header {
+.main-header {
 	border-bottom: solid black 2px;
 	display: flex;
 	width: 100%;
+	flex-direction: row;
 	margin-bottom: 25px;
 	padding-bottom: 45px;
 }
 
 
-section .main-body {
+.top-body  {
+	display: flex;
+	margin: 15px;
+	padding: 35px;
+	justify-content: space-around;
+}
+
+.top-body h4 {
+	padding-bottom: 15px;
+	font-size: 37px;
+	
+}
+
+.top-body p {
+	width: 75%;
+	font-size: 27px;
+	padding-bottom: 55px;
+		
+}
+
+.middle-img {
+	width: 100%;
+}
+
+.bottom-body  {
+	display: flex;
 	border-bottom: solid black 2px;
-	align-content: center;
-	margin-bottom: 25px;
-	padding-bottom: 45px;
-	display: flex;
+	margin: 15px;
+	padding: 35px;
+	justify-content: space-around;
+	
 }
 
-
-
-.main-body .features {
-	display: flex;
-
-	padding: 25px;
+.bottom-body h4 {
+	padding-bottom: 15px;
+	font-size: 37px;
+	
 }
 
-.main-body .about {
-	display: flex;
-
-	padding: 25px;
-}
-
-.main-body .services {
-	display: flex;
-
-	padding: 25px;
-}
-.main-body .product {
-	display: flex;
-
-	padding: 25px;
-}
-.main-body .vision {
-	display: flex;
-	align-content: center;
-
-	padding: 25px;
-}
-.main-body img {
-	display: flex;
-	align-content: center;
-
-	height: 150px;
+.bottom-body p {
+	width: 80%;
+	font-size: 27px;
+		
 }
 
 section .contact {
