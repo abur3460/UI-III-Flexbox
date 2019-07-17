@@ -70,78 +70,88 @@ body {
 	
 	
 }
-
-.container nav  {
+.container1 {
+	width: 100;
+}
+.container2 nav {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 	flex-wrap: nowrap;
 	text-decoration: none;
 	color: grey;
-	padding: 10px;
+	padding-bottom: 50px;
+	font-size: 20px;
 
 }
+.logo1 {
+	width: 28%;
 
-.container a {
+}
+.container2 a {
 	text-decoration: none;
 	color: grey;
 }
 
+.main-header {
+	border-bottom: solid black 2px;
+	display: flex;
+	flex-direction: row;
+	margin-top: 55px;
+	padding-bottom: 55px;
+	justify-content: center;
+	justify-content: space-evenly;
+}
 
 
-.headerbutton {
+.title1-button {
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
 	
 }
  
 
 .title1 {
-	display: flex;
-	font-size: 125px;
-	width:;
+	font-size: 150px;
 	text-align: center;
-	align-items: center;
+	
+	
 
 }
 
 
-button {
+.button {
 	background: white;
 	border: solid black 1px;
 	color: black;
-	text-align: center;
+	align-items: center;
 	text-decoration: none;
+	justify-content: center;
 	display: flex;
-	width: 100px;
-	height: 25px;
-	font-size: 16px;
+	width: 250px;
+	height: 75px;
+	font-size: 23px;
 	transition-duration: .7s;
-	margin: 
+	margin-left: 180px;
+	
 }
 .button:hover {
 	background-color: lightgrey;
 
 }
 
-.main-header {
-	border-bottom: solid black 2px;
-	display: flex;
-	width: 100%;
-	flex-direction: row;
-	margin-bottom: 25px;
-	padding-bottom: 45px;
-}
+
 
 
 .top-body  {
 	display: flex;
-	margin: 15px;
-	padding: 35px;
+
 	justify-content: space-around;
 }
 
 .top-body h4 {
+	margin-top: 50px;
 	padding-bottom: 15px;
 	font-size: 37px;
 	
@@ -156,19 +166,22 @@ button {
 
 .middle-img {
 	width: 100%;
+	height: 400px;
+	padding-top: 25px;
+	padding-bottom: 25px;
 }
 
 .bottom-body  {
 	display: flex;
 	border-bottom: solid black 2px;
-	margin: 15px;
-	padding: 35px;
+	padding-top: 25px;
+	padding-bottom: 25px;
 	justify-content: space-around;
 	
 }
 
 .bottom-body h4 {
-	padding-bottom: 15px;
+	padding-bottom: 35px;
 	font-size: 37px;
 	
 }
@@ -176,15 +189,154 @@ button {
 .bottom-body p {
 	width: 80%;
 	font-size: 27px;
+	padding-bottom: 35px;
+		
+}
+.contact h4 {
+	padding-bottom: 15px;
+	font-size: 37px;
+}
+ .contact {
+	display: flex;
+	flex-direction: column;
+	padding: 25px;
+	flex-wrap: nowrap;
+	width: 75%;
+	font-size: 27px;
+	padding-bottom: 55px;
+	justify-content: space-between;
+}
+
+.copyright {
+	text-align: center;
+	font-size: 25px;
+}
+
+/* Begin CSS for services */
+
+.services-container1 {
+width: 100%;
+margin: auto;
+}
+
+.services-container2 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 65px;
+	
+	margin-bottom: 50px;
+	
+}
+
+.services-container2 a {
+	text-decoration: none;
+	color: grey;
+	font-size: 25px;
+	justify-content: center;
+	
+	
+}
+
+.services-container2 img {
+	height: 50px;
+	
+	
+}
+
+.services-mainbody {
+display: flex;
+flex-direction: row;
+align-content: space-between;
+padding-bottom: 100px;
+padding-top: 100px;
+}
+
+.services-services h4 {
+	padding-top: 45px;
+	font-size: 70px;
+}
+
+.services-services p {
+	font-size: 30px;
+	width: 
+}
+.services-facts {
+
+}
+.services-facts h4 {
+	font-size: 70px;
+
+}
+
+.services-facts p {
+	font-size: 30px;
+	width: 50%;
+}
+
+
+.services-box {
+	border: solid black 2px;
+	padding: 50px;
+	background-color: lightgrey;
+}
+.services-topbody h4 {
+	
+	font-size: 70px;
+	
+	
+}
+
+.services-topbody p {
+	font-size: 30px;
+	
 		
 }
 
-section .contact {
-	display: flex;
-	padding: 25px;
+.services-topimg {
+	width: 100%;
+	height: 350px;
+	padding-top: 25px;
 }
 
-div.copyright {
-	text-align: center;
+
+.services-bottombody h4 {
+	font-size: 70px;
 	
+}
+
+.services-bottombody p {
+	font-size: 30px;	
+}
+
+.services-facts {
+	width: 100%
+}
+.services-infoimg {
+	height: 350px;
+	
+}
+
+.services-button {
+	background: white;
+	border: solid black 1px;
+	color: black;
+	align-items: center;
+	text-decoration: none;
+	justify-content: center;
+	display: flex;
+	width: 250px;
+	height: 75px;
+	font-size: 23px;
+	transition-duration: .7s;
+	margin-left: 180px;
+	
+}
+
+ul {
+	padding-top: 60px;
+	padding-bottom: 100px;
+	padding-left: 100px;
+	list-style: square outside none;
+	font-size: 30px;
 }
